@@ -17,18 +17,18 @@
     <script src="ajax_functions.js"></script>
   
     <form id="form1" method="POST">
-    <input type="text" name="nombre" id="nombre" placeholder="Nombre:"><br>
-    <input type="number" name="telefono" id="telefono" placeholder="Telefono:"><br>
-    <input type="number" name="edad" id="edad" placeholder="Edad:"><br>
-    <button type="button" name="add_person" onclick="addLink()">Insertar persona</button>
+       <input type="text" name="nombre" id="nombre" placeholder="Nombre:"><br>
+       <input type="number" name="telefono" id="telefono" placeholder="Telefono:"><br>
+       <input type="number" name="edad" id="edad" placeholder="Edad:"><br>
+       <button type="button" name="add_person" onclick="addLink()">Insertar persona</button>
     </form><br><br>
 
     <form id="form2" method="POST">
-    <input type="number" name="id" id="id_persona" placeholder="Id:"><br>
-    <input type="text" name="nombre" id="nombre" placeholder="Nombre:"><br>
-    <input type="number" name="telefono" id="telefono" placeholder="Telefono:"><br>
-    <input type="number" name="edad" id="edad" placeholder="Edad:"><br>
-    <button type="button" name="edit_link" onclick="editLink()">Editar persona</button>
+       <input type="number" name="id" id="id_persona" placeholder="Id:"><br>
+       <input type="text" name="nombre" id="nombre" placeholder="Nombre:"><br>
+       <input type="number" name="telefono" id="telefono" placeholder="Telefono:"><br>
+       <input type="number" name="edad" id="edad" placeholder="Edad:"><br>
+       <button type="button" name="edit_link" onclick="editLink()">Editar persona</button>
     </form><br><br>
 
     <form class="form3" id="form3" method="POST">
@@ -41,4 +41,5 @@
     </div>
 
 </body>
+
 </html>
